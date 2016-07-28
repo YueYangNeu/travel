@@ -1,0 +1,142 @@
+
+body {
+	background: #2F3027 url(../images/back.jpg) no-repeat;
+	font:1em Tahoma, Arial, Verdana, "微软雅黑";
+	color:#666;
+	margin:0;
+	padding:0;
+}
+a{
+	color:#BD8100;
+	text-decoration:none;
+}
+a:hover{
+	background:#BD8100;
+	color:#FFF;
+}
+
+
+ul{
+	margin: 0;
+	padding:10px 0px 10px 10px;
+	list-style: none;
+}
+
+li{
+	padding-right: 12px;
+	padding-bottom: 0.6em;
+	background:url(../images/li_bullet.gif) no-repeat 100% 2px;
+}
+.page-wrapper {
+	margin:0;
+	padding:0;
+}
+/* Intro */
+.intro{
+	width:467px;
+}
+header h1{
+	margin:0 0 0 16px;
+	height:367px;
+	background:url(../images/page_header.jpg) no-repeat;
+	text-indent:-2000px;
+}
+header h2,
+.summary p:first-child{
+	display:none;
+}
+.designer-name{
+color: #BD8100;
+}
+
+.summary p:last-child{
+	margin:0 0 0 16px;
+	padding-left:343px;
+	font-size:6px;
+	height:82px;
+	white-space:no-wrap;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+.summary p:last-child a{
+	width:36px;
+	height:20px;
+	float:left;
+	visibility:visible;
+	text-indent:-2000px;
+	margin:-7px 17px 0 0;
+	padding:0;
+}
+.summary p:last-child a:hover{
+	background:none;
+}
+.preamble{
+	margin:0 0 0 16px;
+	padding:0;
+		
+}
+.preamble h3{
+	height:69px;
+}
+.preamble p{
+	line-height:1.4em;
+	padding:19px 19px 5px 19px;
+	margin:0;
+}
+/* Supporting Text */
+.supporting{
+	width:467px;
+}
+.supporting p{
+	font-size:11px;
+	line-height:1.4em;
+	padding:19px 19px 5px 19px;
+	margin:0;
+}
+.supporting h3{
+	margin:0;
+	padding:0;
+	height:107px;
+}
+.explanation, 
+.participation, 
+.benefits,
+.requirements{
+	margin:0 0 0 16px;	
+	font-family: "微软雅黑";
+}
+
+footer{
+	margin:0 0 0 16px;
+	padding-top:58px;
+	padding-bottom:20px;
+	background:url(../images/footer_back.gif) no-repeat;
+	text-align:center;
+}
+footer a{
+	margin:3px;
+	padding:2px 5px;
+	font-weight:bold;	
+}
+/* Link List */
+.sidebar {
+	position:absolute;
+	top:64px;
+	left:467px;
+	width:500px;
+	background:url(../images/linklist_back.gif) no-repeat;
+	padding-top:62px;
+	text-align:right;
+}
+.sidebar abbr{ 
+	border:none;
+}
+.select{
+	height:30px;
+}
+.archives{
+	background:url(../images/archives_back.gif) no-repeat 100% 0;	
+	height:27px;
+}
+
