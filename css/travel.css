@@ -14,8 +14,20 @@ a:hover{
 	background:#BD8100;
 	color:#FFF;
 }
+h3{
+	margin:0;
+	padding:0;	
 
-
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+abbr{ 
+	border-bottom:1px dotted;
+}
+.accesskey{
+	text-decoration:underline;
+}
 ul{
 	margin: 0;
 	padding:10px 0px 10px 10px;
@@ -54,7 +66,9 @@ color: #BD8100;
 	padding-left:343px;
 	font-size:6px;
 	height:82px;
+	background:url(../images/quicksummary_back.gif) no-repeat;
 	white-space:no-wrap;
+
 	text-indent: 100%;
 	white-space: nowrap;
 	overflow: hidden;
@@ -78,6 +92,7 @@ color: #BD8100;
 }
 .preamble h3{
 	height:69px;
+	background:url(../images/theroad_back.gif) no-repeat;	
 }
 .preamble p{
 	line-height:1.4em;
@@ -87,6 +102,7 @@ color: #BD8100;
 /* Supporting Text */
 .supporting{
 	width:467px;
+	background:url(../images/txt_back.gif) repeat-y 16px;
 }
 .supporting p{
 	font-size:11px;
@@ -131,12 +147,5 @@ footer a{
 }
 .sidebar abbr{ 
 	border:none;
-}
-.select{
-	height:30px;
-}
-.archives{
-	background:url(../images/archives_back.gif) no-repeat 100% 0;	
-	height:27px;
 }
 
